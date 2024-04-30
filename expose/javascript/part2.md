@@ -30,4 +30,8 @@
     f. true === Boolean(2) -> **true** since the Boolean of 2 is true which makes it the same type and value as true.
 15. Three equal signs mean that we are not type casting at all so if left and right side are different types, they automatically return false. Two equal signs will typecast if possible in order to compare the sides.
 16. *In JS file*
+17. ```[2,4,6]``` will be the output. This is because for each element in the input array, we are calling back the ```doSomething``` function which returns the element multiplied by 2. This is stored in the new array which is returned at the end.
+18. *In JS file*
+19. The output is ```1 4 3 2``` because the 1 is listed first with no timeout. 4 is next because it is the next function without a timeout. 3 is next because the delay is 0 so it prints right after any non-timeout thing is printed. 2 is last because it has a one second delay.
+20. 
     
